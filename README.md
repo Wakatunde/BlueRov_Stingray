@@ -1,3 +1,7 @@
-# Stingray-2.0
 # BlueRov_Stingray
-# BlueRov_Stingray
+
+Dependencies:
+Mavros
+ROS2 Humble
+Joy
+Nav2
