@@ -1,0 +1,353 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77027391b8b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77027391b460>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77027391b460>>)
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.210s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/michael/Stingray2_ws'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/__pycache__) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/build) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/build) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/build) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/install) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch/logs) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_controller) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stingray_controller' with type 'ros.ament_python' and name 'stingray_control'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_interface) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stingray_interface' with type 'ros.ament_python' and name 'stingray_interface'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_msg) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stingray_msg' with type 'ros.ament_cmake' and name 'stingray_msg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/stingray_simulation) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stingray_simulation' with type 'ros.ament_python' and name 'stingray_simulation'
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.250s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/michael/ros2_ws/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 34 installed packages in /home/michael/colcon_ws/install
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 351 installed packages in /opt/ros/humble
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_target' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.285s] Level 5:colcon.colcon_core.verb:set package 'stingray_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.285s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray2_ws/build/stingray_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray2_ws/install/stingray_interface', 'merge_install': False, 'path': '/home/michael/Stingray2_ws/src/stingray_interface', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray2_ws/build/stingray_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray2_ws/install/stingray_msg', 'merge_install': False, 'path': '/home/michael/Stingray2_ws/src/stingray_msg', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray2_ws/build/stingray_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray2_ws/install/stingray_simulation', 'merge_install': False, 'path': '/home/michael/Stingray2_ws/src/stingray_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'stingray_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'stingray_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michael/Stingray2_ws/build/stingray_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michael/Stingray2_ws/install/stingray_control', 'merge_install': False, 'path': '/home/michael/Stingray2_ws/src/stingray_controller', 'symlink_install': False, 'test_result_base': None}
+[0.287s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/michael/Stingray2_ws/src/stingray_msg' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/michael/Stingray2_ws/src/stingray_msg'
+[0.289s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michael/Stingray2_ws/src/stingray_interface' with build type 'ament_python'
+[0.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_interface', 'ament_prefix_path')
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/ament_prefix_path.ps1'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/ament_prefix_path.dsv'
+[0.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/ament_prefix_path.sh'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michael/Stingray2_ws/src/stingray_simulation' with build type 'ament_python'
+[0.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_simulation', 'ament_prefix_path')
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/ament_prefix_path.ps1'
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/ament_prefix_path.dsv'
+[0.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/ament_prefix_path.sh'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray2_ws/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray2_ws/build/stingray_msg -- -j8 -l8
+[0.544s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michael/Stingray2_ws/src/stingray_interface'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michael/Stingray2_ws/src/stingray_simulation'
+[0.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.759s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray2_ws/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray2_ws/build/stingray_msg -- -j8 -l8
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray2_ws/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray2_ws/build/stingray_msg
+[0.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_msg)
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray2_ws/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray2_ws/build/stingray_msg
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg' for CMake module files
+[0.887s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg' for CMake config files
+[0.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'cmake_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.dsv'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.sh'
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib'
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'ld_library_path_lib')
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.sh'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/bin'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib/pkgconfig/stingray_msg.pc'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib/python3.10/site-packages'
+[0.890s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/bin'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.bash'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.zsh'
+[0.893s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray2_ws/install/stingray_msg/share/colcon-core/packages/stingray_msg)
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_msg)
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg' for CMake module files
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg' for CMake config files
+[0.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'cmake_prefix_path')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/cmake_prefix_path.sh'
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib'
+[0.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_msg', 'ld_library_path_lib')
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.ps1'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.dsv'
+[0.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/hook/ld_library_path_lib.sh'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/bin'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib/pkgconfig/stingray_msg.pc'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/lib/python3.10/site-packages'
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_msg/bin'
+[0.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.sh'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.bash'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.zsh'
+[0.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray2_ws/install/stingray_msg/share/colcon-core/packages/stingray_msg)
+[0.969s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michael/Stingray2_ws/src/stingray_controller' with build type 'ament_python'
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_control', 'ament_prefix_path')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/ament_prefix_path.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/ament_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/ament_prefix_path.sh'
+[0.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.203s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'stingray_control' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.204s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'stingray_control' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michael/Stingray2_ws/src/stingray_controller'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray2_ws/src/stingray_simulation': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_simulation/prefix_override:/home/michael/Stingray2_ws/install/stingray_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_simulation build --build-base /home/michael/Stingray2_ws/build/stingray_simulation/build install --record /home/michael/Stingray2_ws/build/stingray_simulation/install.log --single-version-externally-managed install_data
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray2_ws/src/stingray_interface': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation' for CMake module files
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray2_ws/src/stingray_simulation' returned '0': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_simulation/prefix_override:/home/michael/Stingray2_ws/install/stingray_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_simulation build --build-base /home/michael/Stingray2_ws/build/stingray_simulation/build install --record /home/michael/Stingray2_ws/build/stingray_simulation/install.log --single-version-externally-managed install_data
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation' for CMake config files
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation/lib'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation/bin'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation/lib/pkgconfig/stingray_simulation.pc'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation/lib/python3.10/site-packages'
+[1.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_simulation', 'pythonpath')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/pythonpath.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/pythonpath.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/hook/pythonpath.sh'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_simulation/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_simulation)
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/package.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/package.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/package.sh'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/package.bash'
+[1.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_simulation/share/stingray_simulation/package.zsh'
+[1.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray2_ws/install/stingray_simulation/share/colcon-core/packages/stingray_simulation)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface' for CMake module files
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray2_ws/src/stingray_interface' returned '0': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface' for CMake config files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface/lib'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface/bin'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface/lib/pkgconfig/stingray_interface.pc'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages'
+[1.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_interface', 'pythonpath')
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/pythonpath.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/pythonpath.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/hook/pythonpath.sh'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_interface/bin'
+[1.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_interface)
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/package.ps1'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/package.dsv'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/package.sh'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/package.bash'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface/package.zsh'
+[1.484s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray2_ws/install/stingray_interface/share/colcon-core/packages/stingray_interface)
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michael/Stingray2_ws/src/stingray_controller': AMENT_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/Stingray2_ws/install/stingray_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control' for CMake module files
+[1.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michael/Stingray2_ws/src/stingray_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/Stingray2_ws/install/stingray_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control' for CMake config files
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control/lib'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control/bin'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control/lib/pkgconfig/stingray_control.pc'
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages'
+[1.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('stingray_control', 'pythonpath')
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/pythonpath.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/pythonpath.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/hook/pythonpath.sh'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/michael/Stingray2_ws/install/stingray_control/bin'
+[1.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stingray_control)
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/package.ps1'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/package.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/package.sh'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/package.bash'
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/michael/Stingray2_ws/install/stingray_control/share/stingray_control/package.zsh'
+[1.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michael/Stingray2_ws/install/stingray_control/share/colcon-core/packages/stingray_control)
+[1.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.775s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.775s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.782s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.782s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray2_ws/install/local_setup.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/Stingray2_ws/install/_local_setup_util_ps1.py'
+[1.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray2_ws/install/setup.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray2_ws/install/local_setup.sh'
+[1.786s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michael/Stingray2_ws/install/_local_setup_util_sh.py'
+[1.787s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray2_ws/install/setup.sh'
+[1.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray2_ws/install/local_setup.bash'
+[1.788s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray2_ws/install/setup.bash'
+[1.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michael/Stingray2_ws/install/local_setup.zsh'
+[1.790s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michael/Stingray2_ws/install/setup.zsh'

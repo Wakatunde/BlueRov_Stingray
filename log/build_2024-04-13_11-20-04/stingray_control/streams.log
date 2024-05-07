@@ -1,0 +1,37 @@
+[0.851s] Invoking command in '/home/michael/Stingray2_ws/src/stingray_controller': AMENT_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/Stingray2_ws/install/stingray_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data
+[1.148s] running egg_info
+[1.148s] writing ../../build/stingray_control/stingray_controller.egg-info/PKG-INFO
+[1.151s] writing dependency_links to ../../build/stingray_control/stingray_controller.egg-info/dependency_links.txt
+[1.151s] writing entry points to ../../build/stingray_control/stingray_controller.egg-info/entry_points.txt
+[1.151s] writing requirements to ../../build/stingray_control/stingray_controller.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/stingray_control/stingray_controller.egg-info/top_level.txt
+[1.154s] reading manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+[1.156s] writing manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.157s] copying stingray_controller/CamLightControlNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+[1.157s] copying stingray_controller/ModeControlNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+[1.157s] copying stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+[1.157s] copying stingray_controller/RcControlNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+[1.158s] running install
+[1.159s] running install_lib
+[1.161s] copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/CamLightControlNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+[1.161s] copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/ModeControlNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+[1.161s] copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+[1.161s] copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/RcControlNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+[1.162s] byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/CamLightControlNode.py to CamLightControlNode.cpython-310.pyc
+[1.163s] byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/ModeControlNode.py to ModeControlNode.cpython-310.pyc
+[1.164s] byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/JoyToStingrayNode.py to JoyToStingrayNode.cpython-310.pyc
+[1.164s] byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/RcControlNode.py to RcControlNode.cpython-310.pyc
+[1.165s] running install_data
+[1.165s] running install_egg_info
+[1.167s] removing '/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.167s] Copying ../../build/stingray_control/stingray_controller.egg-info to /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info
+[1.168s] running install_scripts
+[1.194s] Installing ArmDisarmNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[1.194s] Installing CamLightControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[1.194s] Installing ModeControl script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[1.194s] Installing RcControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[1.194s] Installing control_data script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[1.195s] writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_control/install.log'
+[1.243s] Invoked command in '/home/michael/Stingray2_ws/src/stingray_controller' returned '0': AMENT_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/michael/Stingray2_ws/install/stingray_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/michael/Stingray2_ws/install/stingray_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data

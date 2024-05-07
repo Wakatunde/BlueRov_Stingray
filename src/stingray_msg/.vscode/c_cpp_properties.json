@@ -1,0 +1,50 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/michael/Stingray_ws/install/stingray_msg/include/**",
+        "/home/michael/Stingray_ws/install/px4_ros_com/include/**",
+        "/home/michael/Stingray_ws/install/px4_msgs/include/**",
+        "/home/michael/Stingray_ws/install/mavros_extras/include/**",
+        "/home/michael/Stingray_ws/install/mavros/include/**",
+        "/home/michael/Stingray_ws/install/mavros_msgs/include/**",
+        "/home/michael/Stingray_ws/install/libmavconn/include/**",
+        "/home/michael/ros2_ws/install/sdformat_urdf/include/**",
+        "/home/michael/ros2_ws/install/ros_gz_sim/include/**",
+        "/home/michael/ros2_ws/install/ros_gz_bridge/include/**",
+        "/home/michael/ros2_ws/install/ros_gz_interfaces/include/**",
+        "/home/michael/ros2_ws/install/ardupilot_msgs/include/**",
+        "/home/michael/colcon_ws/install/sdformat_urdf/include/**",
+        "/home/michael/colcon_ws/install/ros_ign_interfaces/include/**",
+        "/home/michael/colcon_ws/install/ros_gz_sim/include/**",
+        "/home/michael/colcon_ws/install/ros_gz_bridge/include/**",
+        "/home/michael/colcon_ws/install/ros_gz_interfaces/include/**",
+        "/home/michael/colcon_ws/install/orca_nav2/include/**",
+        "/home/michael/colcon_ws/install/orca_base/include/**",
+        "/home/michael/colcon_ws/install/orca_shared/include/**",
+        "/home/michael/colcon_ws/install/ros2_shared/include/**",
+        "/home/michael/colcon_ws/install/orca_msgs/include/**",
+        "/home/michael/colcon_ws/install/orb_slam2_ros/include/**",
+        "/home/michael/colcon_ws/install/micro_ros_agent/include/**",
+        "/home/michael/colcon_ws/install/ardupilot_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/michael/Stingray_ws/src/mavros/libmavconn/include/**",
+        "/home/michael/Stingray_ws/src/mavros/mavros/include/**",
+        "/home/michael/Stingray_ws/src/mavros/mavros_extras/include/**",
+        "/home/michael/Stingray_ws/src/mavros/mavros_msgs/include/**",
+        "/home/michael/Stingray_ws/src/px4_ros_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

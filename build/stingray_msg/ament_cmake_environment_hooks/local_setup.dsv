@@ -1,0 +1,4 @@
+source;share/stingray_msg/environment/ament_prefix_path.sh
+source;share/stingray_msg/environment/library_path.sh
+source;share/stingray_msg/environment/path.sh
+source;share/stingray_msg/environment/pythonpath.sh

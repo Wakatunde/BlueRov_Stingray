@@ -1,0 +1,7 @@
+[console_scripts]
+ArmDisarmNode = stingray_controller.ArmDisarmNode:main
+CamLightControlNode = stingray_controller.CamLightControlNode:main
+ModeControl = stingray_controller.ModeControlNode:main
+RcControlNode = stingray_controller.RcControlNode:main
+control_data = stingray_controller.JoyToStingrayNode:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+gui_node = stingray_interface.simple_gui_node:main
+

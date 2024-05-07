@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+../../build/stingray_simulation/stingray_simulation.egg-info/PKG-INFO
+../../build/stingray_simulation/stingray_simulation.egg-info/SOURCES.txt
+../../build/stingray_simulation/stingray_simulation.egg-info/dependency_links.txt
+../../build/stingray_simulation/stingray_simulation.egg-info/entry_points.txt
+../../build/stingray_simulation/stingray_simulation.egg-info/requires.txt
+../../build/stingray_simulation/stingray_simulation.egg-info/top_level.txt
+../../build/stingray_simulation/stingray_simulation.egg-info/zip-safe
+resource/stingray_simulation
+stingray_simulation/__init__.py

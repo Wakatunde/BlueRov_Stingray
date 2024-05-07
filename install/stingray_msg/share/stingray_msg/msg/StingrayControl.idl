@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from stingray_msg/msg/StingrayControl.msg
+// generated code does not contain a copyright notice
+
+
+module stingray_msg {
+  module msg {
+    @verbatim (language="comment", text=
+      "StingrayControl.msg")
+    struct StingrayControl {
+      @verbatim (language="comment", text=
+        "Forward/backward motion (Left stick up/down)")
+      float forward_backward;
+
+      @verbatim (language="comment", text=
+        "Left/right strafing (Left stick left/right)")
+      float left_right;
+
+      @verbatim (language="comment", text=
+        "Increase altitude (right trigger)")
+      float increase_altitude;
+
+      @verbatim (language="comment", text=
+        "decrease altitude (left trigger)")
+      float decrease_altitude;
+
+      @verbatim (language="comment", text=
+        "Horizontal rotation (Right stick left/right)")
+      float horizontal_rotation;
+
+      @verbatim (language="comment", text=
+        "Vertical rotation (Right stick up/down)")
+      float vertical_rotation;
+
+      int32 light_step;
+
+      @verbatim (language="comment", text=
+        "Increae light brightness (right bumper)")
+      int8 light_brighter;
+
+      @verbatim (language="comment", text=
+        "decrease light brightness (left bumper)")
+      int8 light_dimmer;
+
+      @verbatim (language="comment", text=
+        "set mode to manual (B)")
+      int8 manual_mode_toggle;
+
+      @verbatim (language="comment", text=
+        "set mode to altitude hold (A)")
+      int8 althold_mode_toggle;
+
+      @verbatim (language="comment", text=
+        "Adjust camera angle (DPad up/down)")
+      int32 camera_angle;
+
+      @verbatim (language="comment", text=
+        "X")
+      int8 stabilize;
+
+      @verbatim (language="comment", text=
+        "Arm the rov (settings)")
+      int8 arm;
+
+      @verbatim (language="comment", text=
+        "dissarm the rov (select)")
+      int8 dissarm;
+
+      int8 acro;
+    };
+  };
+};

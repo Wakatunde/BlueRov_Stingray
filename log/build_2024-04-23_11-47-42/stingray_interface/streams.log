@@ -1,0 +1,20 @@
+[1.864s] Invoking command in '/home/michael/Stingray2_ws/src/stingray_interface': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data
+[2.297s] running egg_info
+[2.298s] writing ../../build/stingray_interface/stingray_interface.egg-info/PKG-INFO
+[2.298s] writing dependency_links to ../../build/stingray_interface/stingray_interface.egg-info/dependency_links.txt
+[2.299s] writing entry points to ../../build/stingray_interface/stingray_interface.egg-info/entry_points.txt
+[2.299s] writing requirements to ../../build/stingray_interface/stingray_interface.egg-info/requires.txt
+[2.299s] writing top-level names to ../../build/stingray_interface/stingray_interface.egg-info/top_level.txt
+[2.300s] reading manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+[2.301s] writing manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+[2.302s] running build
+[2.302s] running build_py
+[2.302s] running install
+[2.302s] running install_lib
+[2.304s] running install_data
+[2.304s] running install_egg_info
+[2.306s] removing '/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface-0.0.0-py3.10.egg-info' (and everything under it)
+[2.306s] Copying ../../build/stingray_interface/stingray_interface.egg-info to /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface-0.0.0-py3.10.egg-info
+[2.307s] running install_scripts
+[2.332s] writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_interface/install.log'
+[2.364s] Invoked command in '/home/michael/Stingray2_ws/src/stingray_interface' returned '0': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/stingray_interface/stingray_interface.egg-info
+writing ../../build/stingray_interface/stingray_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/stingray_interface/stingray_interface.egg-info/dependency_links.txt
+writing entry points to ../../build/stingray_interface/stingray_interface.egg-info/entry_points.txt
+writing requirements to ../../build/stingray_interface/stingray_interface.egg-info/requires.txt
+writing top-level names to ../../build/stingray_interface/stingray_interface.egg-info/top_level.txt
+writing manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/michael/Stingray2_ws/build/stingray_interface/build
+creating /home/michael/Stingray2_ws/build/stingray_interface/build/lib
+creating /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface
+copying stingray_interface/__init__.py -> /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface
+running install
+running install_lib
+creating /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface
+copying /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface/__init__.py -> /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface
+byte-compiling /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index
+creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index
+creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index/packages
+copying resource/stingray_interface -> /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface
+running install_egg_info
+Copying ../../build/stingray_interface/stingray_interface.egg-info to /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_interface/install.log'

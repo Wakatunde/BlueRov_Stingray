@@ -1,0 +1,6 @@
+{
+  "package_name": "stingray_msg",
+  "non_idl_tuples": [
+    "/home/michael/Stingray2_ws/src/stingray_msg:msg/StingrayControl.msg"
+  ]
+}

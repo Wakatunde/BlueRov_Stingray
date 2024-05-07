@@ -1,0 +1,11 @@
+source;share/stingray_msg/hook/cmake_prefix_path.ps1
+source;share/stingray_msg/hook/cmake_prefix_path.dsv
+source;share/stingray_msg/hook/cmake_prefix_path.sh
+source;share/stingray_msg/hook/ld_library_path_lib.ps1
+source;share/stingray_msg/hook/ld_library_path_lib.dsv
+source;share/stingray_msg/hook/ld_library_path_lib.sh
+source;share/stingray_msg/local_setup.bash
+source;share/stingray_msg/local_setup.dsv
+source;share/stingray_msg/local_setup.ps1
+source;share/stingray_msg/local_setup.sh
+source;share/stingray_msg/local_setup.zsh

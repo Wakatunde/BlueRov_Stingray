@@ -1,0 +1,33 @@
+[0.781s] Invoking command in '/home/michael/Stingray2_ws/src/stingray_interface': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data
+[0.993s] running egg_info
+[0.993s] creating ../../build/stingray_interface/stingray_interface.egg-info
+[0.994s] writing ../../build/stingray_interface/stingray_interface.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../../build/stingray_interface/stingray_interface.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/stingray_interface/stingray_interface.egg-info/entry_points.txt
+[0.994s] writing requirements to ../../build/stingray_interface/stingray_interface.egg-info/requires.txt
+[0.994s] writing top-level names to ../../build/stingray_interface/stingray_interface.egg-info/top_level.txt
+[0.994s] writing manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+[0.996s] reading manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/stingray_interface/stingray_interface.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] creating /home/michael/Stingray2_ws/build/stingray_interface/build
+[0.997s] creating /home/michael/Stingray2_ws/build/stingray_interface/build/lib
+[0.997s] creating /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface
+[0.997s] copying stingray_interface/__init__.py -> /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface
+[0.997s] running install
+[0.997s] running install_lib
+[0.997s] creating /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface
+[0.998s] copying /home/michael/Stingray2_ws/build/stingray_interface/build/lib/stingray_interface/__init__.py -> /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface
+[0.998s] byte-compiling /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface/__init__.py to __init__.cpython-310.pyc
+[0.998s] running install_data
+[0.998s] creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index
+[0.998s] creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index
+[0.999s] creating /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index/packages
+[0.999s] copying resource/stingray_interface -> /home/michael/Stingray2_ws/install/stingray_interface/share/ament_index/resource_index/packages
+[0.999s] copying package.xml -> /home/michael/Stingray2_ws/install/stingray_interface/share/stingray_interface
+[0.999s] running install_egg_info
+[0.999s] Copying ../../build/stingray_interface/stingray_interface.egg-info to /home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages/stingray_interface-0.0.0-py3.10.egg-info
+[1.000s] running install_scripts
+[1.016s] writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_interface/install.log'
+[1.054s] Invoked command in '/home/michael/Stingray2_ws/src/stingray_interface' returned '0': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_interface/prefix_override:/home/michael/Stingray2_ws/install/stingray_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_interface build --build-base /home/michael/Stingray2_ws/build/stingray_interface/build install --record /home/michael/Stingray2_ws/build/stingray_interface/install.log --single-version-externally-managed install_data

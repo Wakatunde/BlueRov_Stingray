@@ -1,0 +1,219 @@
+[0.010s] Invoking command in '/home/michael/Stingray2_ws/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray2_ws/install/stingray_control:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray2_ws/build/stingray_msg -- -j8 -l8
+[0.037s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.181s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.539s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.866s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.016s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.036s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.036s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.080s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.092s] -- Added test 'lint_cmake' to check CMake code style
+[1.093s] -- Added test 'xmllint' to check XML markup files
+[1.095s] -- Configuring done
+[1.119s] -- Generating done
+[1.121s] -- Build files have been written to: /home/michael/Stingray2_ws/build/stingray_msg
+[1.144s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.155s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.162s] [  6%] Built target ament_cmake_python_copy_stingray_msg
+[1.392s] running egg_info
+[1.392s] writing stingray_msg.egg-info/PKG-INFO
+[1.392s] writing dependency_links to stingray_msg.egg-info/dependency_links.txt
+[1.393s] writing top-level names to stingray_msg.egg-info/top_level.txt
+[1.394s] reading manifest file 'stingray_msg.egg-info/SOURCES.txt'
+[1.395s] writing manifest file 'stingray_msg.egg-info/SOURCES.txt'
+[1.419s] [  6%] Built target ament_cmake_python_build_stingray_msg_egg
+[1.495s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_generator_c[0m
+[1.498s] [  6%] Built target stingray_msg__cpp
+[1.506s] [  9%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_generator_c.dir/rosidl_generator_c/stingray_msg/msg/detail/stingray_control__functions.c.o[0m
+[1.508s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.508s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.511s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.616s] [ 22%] [32m[1mLinking C shared library libstingray_msg__rosidl_generator_c.so[0m
+[1.662s] [ 22%] Built target stingray_msg__rosidl_generator_c
+[1.675s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.676s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.676s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.867s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_introspection_cpp[0m
+[1.886s] [ 35%] [32mBuilding CXX object CMakeFiles/stingray_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stingray_msg/msg/detail/stingray_control__type_support.cpp.o[0m
+[1.887s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_cpp[0m
+[1.906s] [ 38%] [32mBuilding CXX object CMakeFiles/stingray_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stingray_msg/msg/stingray_control__type_support.cpp.o[0m
+[1.974s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.995s] [ 41%] [32mBuilding CXX object CMakeFiles/stingray_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stingray_msg/msg/detail/dds_fastrtps/stingray_control__type_support.cpp.o[0m
+[3.647s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_introspection_c[0m
+[3.703s] [ 45%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stingray_msg/msg/detail/stingray_control__type_support.c.o[0m
+[3.723s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_fastrtps_c[0m
+[3.740s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_c[0m
+[3.743s] [ 48%] [32mBuilding CXX object CMakeFiles/stingray_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stingray_msg/msg/detail/stingray_control__type_support_c.cpp.o[0m
+[3.764s] [ 51%] [32mBuilding CXX object CMakeFiles/stingray_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/stingray_msg/msg/stingray_control__type_support.cpp.o[0m
+[3.799s] [ 54%] [32m[1mLinking C shared library libstingray_msg__rosidl_typesupport_introspection_c.so[0m
+[3.849s] [ 58%] [32m[1mLinking CXX shared library libstingray_msg__rosidl_typesupport_c.so[0m
+[3.865s] [ 58%] Built target stingray_msg__rosidl_typesupport_introspection_c
+[3.924s] [ 58%] Built target stingray_msg__rosidl_typesupport_c
+[3.947s] [ 61%] [32m[1mLinking CXX shared library libstingray_msg__rosidl_typesupport_cpp.so[0m
+[4.004s] [ 61%] Built target stingray_msg__rosidl_typesupport_cpp
+[4.095s] [ 64%] [32m[1mLinking CXX shared library libstingray_msg__rosidl_typesupport_introspection_cpp.so[0m
+[4.155s] [ 64%] Built target stingray_msg__rosidl_typesupport_introspection_cpp
+[4.286s] [ 67%] [32m[1mLinking CXX shared library libstingray_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.386s] [ 67%] Built target stingray_msg__rosidl_typesupport_fastrtps_cpp
+[4.405s] [ 70%] [32m[1mLinking CXX shared library libstingray_msg__rosidl_typesupport_fastrtps_c.so[0m
+[4.500s] [ 70%] Built target stingray_msg__rosidl_typesupport_fastrtps_c
+[4.528s] [ 70%] Built target stingray_msg
+[4.556s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.279s] [ 74%] Built target stingray_msg__py
+[5.294s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_generator_py[0m
+[5.312s] [ 77%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_generator_py.dir/rosidl_generator_py/stingray_msg/msg/_stingray_control_s.c.o[0m
+[5.515s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/stingray_msg/libstingray_msg__rosidl_generator_py.so[0m
+[5.569s] [ 80%] Built target stingray_msg__rosidl_generator_py
+[5.584s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_c__pyext[0m
+[5.585s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.585s] [35m[1mConsolidate compiler generated dependencies of target stingray_msg__rosidl_typesupport_introspection_c__pyext[0m
+[5.602s] [ 83%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.602s] [ 87%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[5.602s] [ 90%] [32mBuilding C object CMakeFiles/stingray_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.801s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/stingray_msg/stingray_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.804s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/stingray_msg/stingray_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.806s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stingray_msg/stingray_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.862s] [100%] Built target stingray_msg__rosidl_typesupport_introspection_c__pyext
+[5.864s] [100%] Built target stingray_msg__rosidl_typesupport_c__pyext
+[5.864s] [100%] Built target stingray_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.878s] Invoked command in '/home/michael/Stingray2_ws/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray2_ws/install/stingray_control:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/michael/Stingray2_ws/build/stingray_msg -- -j8 -l8
+[6.002s] Invoking command in '/home/michael/Stingray2_ws/build/stingray_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray2_ws/install/stingray_control:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray2_ws/build/stingray_msg
+[6.013s] -- Install configuration: ""
+[6.013s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/ament_index/resource_index/rosidl_interfaces/stingray_msg
+[6.013s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.013s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.013s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.013s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__struct.h
+[6.013s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__functions.h
+[6.013s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__functions.c
+[6.013s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__type_support.h
+[6.013s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/stingray_control.h
+[6.013s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/rosidl_generator_c__visibility_control.h
+[6.014s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/library_path.sh
+[6.014s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/library_path.dsv
+[6.014s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_generator_c.so
+[6.014s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_generator_c.so" to ""
+[6.014s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.014s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.014s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.014s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__rosidl_typesupport_fastrtps_c.h
+[6.014s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.014s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_fastrtps_c.so
+[6.014s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.015s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__builder.hpp
+[6.015s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__traits.hpp
+[6.015s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__struct.hpp
+[6.015s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/stingray_control.hpp
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/dds_fastrtps
+[6.015s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.015s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.016s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_fastrtps_cpp.so
+[6.016s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.016s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.016s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.016s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.016s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__type_support.c
+[6.016s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__rosidl_typesupport_introspection_c.h
+[6.016s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.016s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_introspection_c.so
+[6.016s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_introspection_c.so" to ""
+[6.017s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_c.so
+[6.017s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_c.so" to ""
+[6.017s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg
+[6.017s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg
+[6.017s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail
+[6.017s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__type_support.cpp
+[6.017s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/include/stingray_msg/stingray_msg/msg/detail/stingray_control__rosidl_typesupport_introspection_cpp.hpp
+[6.017s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_introspection_cpp.so
+[6.017s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[6.018s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_cpp.so
+[6.018s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_typesupport_cpp.so" to ""
+[6.018s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/pythonpath.sh
+[6.018s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/pythonpath.dsv
+[6.018s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg-0.0.0-py3.10.egg-info
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg-0.0.0-py3.10.egg-info/top_level.txt
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.019s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.019s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg/_stingray_control.py
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg/__init__.py
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg/_stingray_control_s.c
+[6.019s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/libstingray_msg__rosidl_generator_py.so
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/__init__.py
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_c.c
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/_stingray_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.020s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.068s] Listing '/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg'...
+[6.068s] Compiling '/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/__init__.py'...
+[6.068s] Listing '/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg'...
+[6.068s] Compiling '/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg/__init__.py'...
+[6.068s] Compiling '/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/msg/_stingray_control.py'...
+[6.073s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.073s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.073s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.074s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.074s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.074s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/local/lib/python3.10/dist-packages/stingray_msg/stingray_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.074s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_generator_py.so
+[6.075s] -- Set runtime path of "/home/michael/Stingray2_ws/install/stingray_msg/lib/libstingray_msg__rosidl_generator_py.so" to ""
+[6.075s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/msg/StingrayControl.idl
+[6.075s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/msg/StingrayControl.msg
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/ament_index/resource_index/package_run_dependencies/stingray_msg
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/ament_index/resource_index/parent_prefix_path/stingray_msg
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/ament_prefix_path.sh
+[6.075s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/ament_prefix_path.dsv
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/path.sh
+[6.075s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/environment/path.dsv
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/local_setup.bash
+[6.075s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/local_setup.sh
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/local_setup.zsh
+[6.076s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/local_setup.dsv
+[6.076s] -- Installing: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.dsv
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/ament_index/resource_index/packages/stingray_msg
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_generator_cExport.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_generator_cExport-noconfig.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_generator_cppExport.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_introspection_cExport.cmake
+[6.076s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_cExport.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_cExport-noconfig.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_introspection_cppExport.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_cppExport.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_generator_pyExport.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/export_stingray_msg__rosidl_generator_pyExport-noconfig.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/rosidl_cmake-extras.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.077s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/ament_cmake_export_targets-extras.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msgConfig.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/cmake/stingray_msgConfig-version.cmake
+[6.078s] -- Up-to-date: /home/michael/Stingray2_ws/install/stingray_msg/share/stingray_msg/package.xml
+[6.080s] Invoked command in '/home/michael/Stingray2_ws/build/stingray_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/michael/Stingray2_ws/install/stingray_control:/home/michael/ros2_ws/install/ardupilot_dds_tests:/home/michael/ros2_ws/install/ardupilot_msgs:/home/michael/colcon_ws/install/ardupilot_ros:/home/michael/colcon_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/michael/Stingray2_ws/build/stingray_msg

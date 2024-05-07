@@ -1,0 +1,25 @@
+[0.568s] Invoking command in '/home/michael/Stingray2_ws/src/stingray_controller': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.783s] writing ../../build/stingray_control/stingray_controller.egg-info/PKG-INFO
+[0.783s] writing dependency_links to ../../build/stingray_control/stingray_controller.egg-info/dependency_links.txt
+[0.783s] writing entry points to ../../build/stingray_control/stingray_controller.egg-info/entry_points.txt
+[0.784s] writing requirements to ../../build/stingray_control/stingray_controller.egg-info/requires.txt
+[0.784s] writing top-level names to ../../build/stingray_control/stingray_controller.egg-info/top_level.txt
+[0.786s] reading manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+[0.787s] writing manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] running install
+[0.788s] running install_lib
+[0.789s] running install_data
+[0.789s] running install_egg_info
+[0.791s] removing '/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.791s] Copying ../../build/stingray_control/stingray_controller.egg-info to /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info
+[0.792s] running install_scripts
+[0.808s] Installing ArmDisarmNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[0.808s] Installing CamLightControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[0.808s] Installing ModeControl script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[0.808s] Installing RcControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[0.808s] Installing control_data script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+[0.809s] writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_control/install.log'
+[0.833s] Invoked command in '/home/michael/Stingray2_ws/src/stingray_controller' returned '0': PYTHONPATH=/home/michael/Stingray2_ws/build/stingray_control/prefix_override:/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stingray_control build --build-base /home/michael/Stingray2_ws/build/stingray_control/build install --record /home/michael/Stingray2_ws/build/stingray_control/install.log --single-version-externally-managed install_data

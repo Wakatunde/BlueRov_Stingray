@@ -1,0 +1,8 @@
+setup.py
+stingray_msg/__init__.py
+stingray_msg.egg-info/PKG-INFO
+stingray_msg.egg-info/SOURCES.txt
+stingray_msg.egg-info/dependency_links.txt
+stingray_msg.egg-info/top_level.txt
+stingray_msg/msg/__init__.py
+stingray_msg/msg/_stingray_control.py

@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/stingray_control/stingray_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/stingray_control/stingray_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/stingray_control/stingray_controller.egg-info/entry_points.txt
+writing requirements to ../../build/stingray_control/stingray_controller.egg-info/requires.txt
+writing top-level names to ../../build/stingray_control/stingray_controller.egg-info/top_level.txt
+reading manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/stingray_control/stingray_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying stingray_controller/ModeControlNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+copying stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller
+running install
+running install_lib
+copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/ModeControlNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+copying /home/michael/Stingray2_ws/build/stingray_control/build/lib/stingray_controller/JoyToStingrayNode.py -> /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller
+byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/ModeControlNode.py to ModeControlNode.cpython-310.pyc
+byte-compiling /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller/JoyToStingrayNode.py to JoyToStingrayNode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/stingray_control/stingray_controller.egg-info to /home/michael/Stingray2_ws/install/stingray_control/lib/python3.10/site-packages/stingray_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ArmDisarmNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+Installing CamLightControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+Installing ModeControl script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+Installing RcControlNode script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+Installing control_data script to /home/michael/Stingray2_ws/install/stingray_control/lib/stingray_controller
+writing list of installed files to '/home/michael/Stingray2_ws/build/stingray_control/install.log'
